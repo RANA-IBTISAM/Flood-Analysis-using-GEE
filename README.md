@@ -150,10 +150,9 @@ function toDB(img) {
 
 //Apllying a Refined Lee Speckle filter as coded in the SNAP 3.0 S1TBX:
 
-//https://github.com/senbox-org/s1tbx/blob/master/s1tbx-op-sar-processing/src/main/java/org/esa/s1tbx/sar/gpf/filtering/SpeckleFilters/RefinedLee.java
-//Adapted by Guido Lemoine
 
-// by Guido Lemoine
+
+
 function RefinedLee(img) {
   // img must be in natural units, i.e. not in dB!
   // Set up 3x3 kernels 
